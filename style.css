@@ -72,6 +72,10 @@ header{
     display: none;
 }
 
+.menu-active{
+    color: var(--primary-color) !important;
+}
+
 .header-content{
     width: 100%;
     display: flex;
@@ -445,6 +449,15 @@ span{
     padding: 10px;
     text-align: center;
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.store-cart p{
+    margin-bottom: 8px;
 }
 
 /*CONTACT SECTION*/
